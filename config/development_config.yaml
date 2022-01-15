@@ -1,4 +1,4 @@
-DATABASE:
+CONNECTION:
   USER: root
   PASSWORD: ricardu123_mysql
   HOST: 127.0.0.1
