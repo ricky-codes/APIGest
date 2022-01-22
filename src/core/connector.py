@@ -1,24 +1,20 @@
-from sqlalchemy import create_engine, engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine, engine, orm
 import mysql.connector.errors
 
-from models.base import Base
-import parse_config
+from infrastructure.mapper import start_mappers
+from infrastructure.data import product_description
+from core import parse_config
+
 
 
 def start_connection():
-    connection = parse_config.connection_config()
+    connection = parse_config.get_connection_config()
     try:
         engine = create_engine(f"mysql+mysqlconnector://{connection['USER']}:{connection['PASSWORD']}@{connection['HOST']}?charset=utf8mb4")
-        Base.metadata.create_all(bind=engine)
-        Session = sessionmaker(bind=engine)
+        Session = orm.sessionmaker(bind=engine)
         session = Session()
         return session
     except mysql.connector.DatabaseError:
         print("Cannot connect to the database")
     except KeyError as err:
         print("The following keys aren't correct: " + str(err.args))
-
-
-if __name__ == "__main__":
-    start_connection()
