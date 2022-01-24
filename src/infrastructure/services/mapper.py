@@ -1,7 +1,8 @@
-from infrastructure.data import product_periodicity, product_dimensions, product_description
 from sqlalchemy.orm import registry, relationship
 from sqlalchemy import MetaData, inspect
-from core.models import product_description_model, product_dimensions_model, product_periodicity_model
+
+from src.core.models import product_description_model, product_dimensions_model, product_periodicity_model
+from src.infrastructure.data import product_periodicity, product_dimensions, product_description
 
 
 metadata = MetaData()
@@ -19,6 +20,3 @@ def start_mappers():
                                         'product_periodicity': relationship(product_periodicity_model.Product_Periodicity,
                                                                             backref='product_periodicity_table')
                                     })
-
-    mapped = inspect(product_periodicity_model.Product_Periodicity)
-    print(mapped.all_orm_descriptors.keys())

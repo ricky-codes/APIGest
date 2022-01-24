@@ -6,6 +6,7 @@ def __load_config():
     try:
         configuration_file = open(CONFIG_PATH)
         configuration = yaml.load(configuration_file, Loader=yaml.FullLoader)
+        configuration_file.close()
         return configuration
     except FileNotFoundError:
         print(CONFIG_PATH + " was not found")

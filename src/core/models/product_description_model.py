@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 
-from core.models.product_periodicity_model import Product_Periodicity
-from core.models.product_dimensions_model import Product_Dimensions
+from . import product_periodicity_model
+from . import product_dimensions_model
 
 @dataclass
 class Product_Description:
@@ -12,7 +12,7 @@ class Product_Description:
     subcategory: str
     ean: int
     internal_code: int
-    product_periodicity: Product_Periodicity = field(init=False)
-    product_dimensions: Product_Dimensions = field(init=False)
+    product_periodicity: product_periodicity_model.Product_Periodicity = field(init=False)
+    product_dimensions: product_dimensions_model.Product_Dimensions = field(init=False)
 
     # TODO add category and subcategory list
