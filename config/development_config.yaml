@@ -3,3 +3,4 @@ CONNECTION:
   PASSWORD: ricardu123_mysql
   HOST: 127.0.0.1
   PORT: 3306
+  DATABASE: apigest

@@ -1,9 +1,10 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
+from dataclasses import field
+
 from datetime import datetime
 
 @dataclass
-class Product_Periodicity:
-    id: int = field(init= False)
-    entry_on_warehouse: datetime = None
-    expire_date: str = None
-
+class ProductPeriodicityModel():
+    id: int = field(init=False)
+    entry_on_warehouse: datetime = field(default_factory=datetime)
+    expire_date: datetime = field(default_factory=datetime)
