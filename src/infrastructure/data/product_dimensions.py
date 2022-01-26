@@ -1,11 +1,11 @@
 from sqlalchemy import MetaData
 from sqlalchemy import Column, Table, Integer, String
 
-metadata_obj = MetaData()
+from infrastructure.data.metadata import Metadata
 
 product_dimensions_table = Table(
     'product_dimensions',
-    metadata_obj,
+    Metadata().get_metadata(),
     Column('id', Integer, primary_key=True),
     Column('unity_of_sale', String(50)),
     Column('quantity_per_pack', Integer),

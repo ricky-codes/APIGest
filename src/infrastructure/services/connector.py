@@ -20,7 +20,7 @@ class SqlAlchemyConnector(connector_abc.Connector):
 
     def start_session(self, engine) -> Session:
         self.Session = sessionmaker(bind=engine.connect())
-        self.session = self.Session()
+        self.session: Session = self.Session()
         return session
 
     def start_connection(self):

@@ -1,11 +1,11 @@
-from sqlalchemy import ForeignKey, MetaData
+from sqlalchemy import ForeignKey
 from sqlalchemy import Column, Table, Integer, String
 
-metadata_obj = MetaData()
+from infrastructure.data.metadata import Metadata
 
 product_description_table = Table(
     'product_description',
-    metadata_obj,
+    Metadata().get_metadata(),
     Column('id', Integer, primary_key=True),
     Column('name', String(200)),
     Column('category', String(100)),
