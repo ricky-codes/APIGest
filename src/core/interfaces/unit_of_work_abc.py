@@ -1,15 +1,19 @@
 from abc import ABC, abstractmethod
 
-class Connector(ABC): 
+class UnitOfWorkAbstract(ABC):
 
     @abstractmethod
-    def start_connection():
+    def enter(self):
         raise NotImplementedError
 
     @abstractmethod
-    def stop_connection():
+    def exit(self):
         raise NotImplementedError
 
     @abstractmethod
-    def get_connection_status():
+    def commit(self):
+        raise NotImplementedError
+
+    @abstractmethod
+    def rollback(self):
         raise NotImplementedError

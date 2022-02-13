@@ -3,8 +3,10 @@ from dataclasses import field
 
 from datetime import date
 
+from core.interfaces.model_abc import ModelAbstract
+
 @dataclass
-class ProductDimensionsModel():
+class ProductDimensionsModel(ModelAbstract):
     id: int = field(init=False, repr=False)
     unity_of_measure: str
     unity_per_pack: int

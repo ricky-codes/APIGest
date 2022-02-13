@@ -12,5 +12,5 @@ product_periodicity_table = Table(
     metadata.metadata_obj,
     Column('id', Integer, primary_key=True),
     Column('entry_on_warehouse', Date),
-    Column('expired_date', Date)
+    Column('expire_date', Date)
 )

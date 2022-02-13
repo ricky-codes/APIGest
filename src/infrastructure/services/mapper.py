@@ -10,8 +10,24 @@ from infrastructure.data.product_dimensions_entity import product_dimensions_tab
 from infrastructure.data.product_description_entity import product_description_table
 
 class Mapper():
+    '''
+        This class holds all the data and methods related to the mapping process
+        used by sqlalchemy.orm.mapper
+
+        Methods:
+            start_mappers()
+    '''
 
     def start_mappers(self) -> None:
+        '''
+            This method is responsible to initialize all mappers, mapping models (dataclasses) 
+            and entities (sqlalchemy.Table) along with their relationships
+
+            Parameters:
+                None
+            Returns:
+                None
+        '''
         mapper(ProductPeriodicityModel, product_periodicity_table)
         mapper(ProductDimensionsModel, product_dimensions_table)
         mapper(ProductDescriptionModel, product_description_table, properties={
