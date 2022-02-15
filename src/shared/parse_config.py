@@ -37,3 +37,8 @@ def get_connection_config():
     '''
     configuration = __load_config()
     return configuration['CONNECTION']
+
+
+def get_logger_config():
+    configuration = __load_config()
+    return configuration['LOGGER']

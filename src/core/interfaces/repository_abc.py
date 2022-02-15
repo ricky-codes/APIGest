@@ -4,12 +4,6 @@ from abc import abstractmethod
 class RepositoryAbstract(ABC):
 
     @abstractmethod
-    @property
-    def session(self):
-        pass
-
-
-    @abstractmethod
     def insert(self, new):
         raise NotImplementedError
 
@@ -18,7 +12,7 @@ class RepositoryAbstract(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def get(self):
+    def get_all(self):
         raise NotImplementedError
 
     @abstractmethod

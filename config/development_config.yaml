@@ -4,3 +4,30 @@ CONNECTION:
   HOST: 127.0.0.1
   PORT: 3306
   DATABASE: apigest
+
+LOGGER:
+  version: 1
+  disable_existing_loggers: true
+  formatters:
+    simple:
+      format: '%(name)s - %(levelname)s - %(message)s'
+    console_formatter:
+      format: '[%(asctime)s] | %(levelname)-7s | %(message)s'
+    file_formatter:
+      format: '[%(asctime)s] | %(levelname)-7s | %(message)s'
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: console_formatter
+      stream: ext://sys.stdout
+    file:
+      class: logging.FileHandler
+      level: INFO
+      filename: logs.log
+      formatter: file_formatter
+  loggers:
+    dev:
+      handlers: [console, file]
+  root:
+    level: DEBUG

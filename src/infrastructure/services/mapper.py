@@ -17,6 +17,8 @@ class Mapper():
         Methods:
             start_mappers()
     '''
+    def __init__(self, logger) -> None:
+        self.logger = logger
 
     def start_mappers(self) -> None:
         '''
@@ -29,8 +31,11 @@ class Mapper():
                 None
         '''
         mapper(ProductPeriodicityModel, product_periodicity_table)
+        self.logger.debug("Mapped ProductPeriodicityModel to product_periodicity_table")
         mapper(ProductDimensionsModel, product_dimensions_table)
+        self.logger.debug("Mapped ProductDimensionsModel to product_dimensions_table")
         mapper(ProductDescriptionModel, product_description_table, properties={
             'product_dimensions': relationship(ProductDimensionsModel, backref='product_dimensions_id'), 
             'product_periodicity': relationship(ProductPeriodicityModel, backref='product_periodicity_id'),
         })
+        self.logger.debug("Mapped ProductDescriptionModel to product_description_table")

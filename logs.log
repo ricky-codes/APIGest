@@ -1,0 +1,3 @@
+[2022-02-15 21:02:06,960] | INFO    | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+[2022-02-15 21:02:07,020] | INFO    | Connection established
+[2022-02-15 21:02:07,034] | INFO    | Session has been started: Engine(mysql+mysqlconnector://root:***@127.0.0.1/apigest?charset=utf8mb4)
