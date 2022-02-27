@@ -12,6 +12,10 @@ class RepositoryAbstract(ABC):
         raise NotImplementedError
 
     @abstractmethod
+    def delete_all(self):
+        raise NotImplementedError
+
+    @abstractmethod
     def get_all(self):
         raise NotImplementedError
 

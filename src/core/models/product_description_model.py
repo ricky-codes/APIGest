@@ -3,14 +3,13 @@ from dataclasses import field
 
 from datetime import date
 
-from core.interfaces.model_abc import ModelAbstract
+from src.core.interfaces.model_abc import ModelAbstract
 
-from . import product_dimensions_model
-from . import product_periodicity_model
+from src.core.models import product_dimensions_model
+from src.core.models import product_periodicity_model
 
 @dataclass
 class ProductDescriptionModel(ModelAbstract):
-    id: int = field(init=False, repr=False)
     name: str
     category: str
     subcategory: str

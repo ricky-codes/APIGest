@@ -1,13 +1,14 @@
 from sqlalchemy.orm import mapper
 from sqlalchemy.orm import relationship
+from sqlalchemy.orm import backref
 
-from core.models.product_description_model import ProductDescriptionModel
-from core.models.product_dimensions_model import ProductDimensionsModel
-from core.models.product_periodicity_model import ProductPeriodicityModel
+from src.core.models.product_description_model import ProductDescriptionModel
+from src.core.models.product_dimensions_model import ProductDimensionsModel
+from src.core.models.product_periodicity_model import ProductPeriodicityModel
 
-from infrastructure.data.product_periodicity_entity import product_periodicity_table
-from infrastructure.data.product_dimensions_entity import product_dimensions_table
-from infrastructure.data.product_description_entity import product_description_table
+from src.infrastructure.data.product_periodicity_entity import product_periodicity_table
+from src.infrastructure.data.product_dimensions_entity import product_dimensions_table
+from src.infrastructure.data.product_description_entity import product_description_table
 
 class Mapper():
     '''
@@ -31,11 +32,9 @@ class Mapper():
                 None
         '''
         mapper(ProductPeriodicityModel, product_periodicity_table)
-        self.logger.debug("Mapped ProductPeriodicityModel to product_periodicity_table")
         mapper(ProductDimensionsModel, product_dimensions_table)
-        self.logger.debug("Mapped ProductDimensionsModel to product_dimensions_table")
         mapper(ProductDescriptionModel, product_description_table, properties={
-            'product_dimensions': relationship(ProductDimensionsModel, backref='product_dimensions_id'), 
-            'product_periodicity': relationship(ProductPeriodicityModel, backref='product_periodicity_id'),
+            'product_dimensions': relationship(ProductDimensionsModel, cascade='all, delete-orphan', single_parent=True), 
+            'product_periodicity': relationship(ProductPeriodicityModel, cascade='all, delete-orphan', single_parent=True),
         })
-        self.logger.debug("Mapped ProductDescriptionModel to product_description_table")
+        self.logger.info("Classes have been mapped")

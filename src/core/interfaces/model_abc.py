@@ -1,8 +1,11 @@
-from abc import ABC
-from abc import abstractmethod
+from dataclasses import dataclass
+from dataclasses import field
+from datetime import datetime
 
-class ModelAbstract():
 
-    @property
-    def id(self):
-        raise NotImplementedError
+@dataclass()
+class ModelAbstract:
+    id: int = field(init=False)
+    modified_at: datetime = field(init=False)
+    inserted_at: datetime = field(init=False)
+    created_at: datetime = field()

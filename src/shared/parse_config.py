@@ -38,6 +38,16 @@ def get_connection_config():
     configuration = __load_config()
     return configuration['CONNECTION']
 
+def get_mysql_connection_uri():
+    configuration = get_connection_config()
+    mysql_connection_uri = "mysql+mysqlconnector://{0}:{1}@{2}/{3}?charset=utf8mb4".format(
+        configuration['USER'],
+        configuration['PASSWORD'],
+        configuration['HOST'],
+        configuration['DATABASE']
+    )
+    return mysql_connection_uri
+
 
 def get_logger_config():
     configuration = __load_config()

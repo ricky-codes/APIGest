@@ -1,14 +1,21 @@
 from abc import ABC, abstractmethod
 
+from src.core.interfaces.repository_abc import RepositoryAbstract
+
+
 class UnitOfWorkAbstract(ABC):
 
-    @abstractmethod
-    def enter(self):
-        raise NotImplementedError
+    engine = None
 
-    @abstractmethod
-    def exit(self):
-        raise NotImplementedError
+    product_periodicity_repository: RepositoryAbstract
+    product_dimensions_repository: RepositoryAbstract
+    product_description_repository: RepositoryAbstract
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        self.rollback()
 
     @abstractmethod
     def commit(self):
