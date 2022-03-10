@@ -1,0 +1,926 @@
+[01-03-2022 09:16:12] | test | DEBUG   | Commit occured on product_periodicity_repository
+[01-03-2022 09:16:12] | test | DEBUG   | Commit occured on product_dimensions_repository
+[01-03-2022 09:16:12] | test | DEBUG   | Commit occured on product_description_repository
+[01-03-2022 09:16:12] | test | DEBUG   | Session closed
+[02-03-2022 09:51:42] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 09:51:42] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 09:51:42] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 09:51:42] | test | DEBUG   | Session closed
+[02-03-2022 10:01:18] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:01:18] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 10:01:18] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:01:18] | test | DEBUG   | Session closed
+[02-03-2022 10:01:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:01:30] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 10:01:30] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:01:30] | test | DEBUG   | Session closed
+[02-03-2022 10:01:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:01:43] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 10:01:43] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:01:43] | test | DEBUG   | Session closed
+[02-03-2022 10:02:19] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:02:19] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 10:02:19] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:02:19] | test | DEBUG   | Session closed
+[02-03-2022 10:05:46] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:05:46] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 10:05:46] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:05:46] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:05:46] | test | DEBUG   | Commit occured on product_dimension_repository
+[02-03-2022 10:05:46] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:05:46] | test | DEBUG   | Session closed
+[02-03-2022 10:07:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:07:25] | test | DEBUG   | Commit occured on product_dimensions_repository
+[02-03-2022 10:07:25] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:07:25] | test | DEBUG   | Commit occured on product_description_repository
+[02-03-2022 10:07:25] | test | DEBUG   | Commit occured on product_dimension_repository
+[02-03-2022 10:07:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[02-03-2022 10:07:25] | test | DEBUG   | Session closed
+[04-03-2022 00:31:15] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:31:15] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 00:31:15] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:31:15] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:31:15] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 00:31:15] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:31:15] | test | DEBUG   | Session closed
+[04-03-2022 00:31:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:31:48] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 00:31:48] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:31:48] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:31:48] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 00:31:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:31:48] | test | DEBUG   | Session closed
+[04-03-2022 00:32:21] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:32:21] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 00:32:21] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:32:21] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:32:21] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 00:32:21] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:32:21] | test | DEBUG   | Session closed
+[04-03-2022 00:32:51] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:32:51] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 00:32:51] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:32:51] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:32:51] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 00:32:51] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:32:51] | test | DEBUG   | Session closed
+[04-03-2022 00:52:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:52:38] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 00:52:38] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:52:38] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:52:38] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 00:52:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:52:38] | test | DEBUG   | Session closed
+[04-03-2022 00:53:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:53:50] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 00:53:50] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:53:50] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 00:53:50] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 00:53:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 00:53:50] | test | DEBUG   | Session closed
+[04-03-2022 01:05:46] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:05:46] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 01:05:46] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:05:47] | test | DEBUG   | Session closed
+[04-03-2022 01:05:57] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:05:57] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 01:05:57] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:05:57] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:05:57] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 01:05:57] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:05:57] | test | DEBUG   | Session closed
+[04-03-2022 01:06:56] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:06:56] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 01:06:56] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:06:56] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:06:56] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 01:06:56] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:06:56] | test | DEBUG   | Session closed
+[04-03-2022 01:07:19] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:07:19] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 01:07:19] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:07:19] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 01:07:19] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 01:07:19] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 01:07:19] | test | DEBUG   | Session closed
+[04-03-2022 09:06:00] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:06:00] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:06:00] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:06:00] | test | DEBUG   | Session closed
+[04-03-2022 09:07:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:07:11] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:07:11] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:07:11] | test | DEBUG   | Session closed
+[04-03-2022 09:08:14] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:08:14] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:08:14] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:08:14] | test | DEBUG   | Session closed
+[04-03-2022 09:09:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:09:09] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:09:09] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:09:09] | test | DEBUG   | Session closed
+[04-03-2022 09:09:35] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:09:35] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:09:36] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:09:36] | test | DEBUG   | Session closed
+[04-03-2022 09:10:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:10:52] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:10:52] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:10:52] | test | DEBUG   | Session closed
+[04-03-2022 09:11:22] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:11:22] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:11:22] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:11:22] | test | DEBUG   | Session closed
+[04-03-2022 09:11:51] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:11:51] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:11:51] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:11:51] | test | DEBUG   | Session closed
+[04-03-2022 09:14:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:14:20] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:14:20] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:14:20] | test | DEBUG   | Session closed
+[04-03-2022 09:17:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:17:25] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:17:25] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:17:26] | test | DEBUG   | Session closed
+[04-03-2022 09:19:41] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:19:41] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:19:41] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:19:42] | test | DEBUG   | Session closed
+[04-03-2022 09:42:46] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:42:46] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:42:46] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:42:46] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:42:46] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:42:46] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:42:46] | test | DEBUG   | Session closed
+[04-03-2022 09:43:35] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:43:35] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:43:36] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:43:36] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:43:36] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:43:36] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:43:36] | test | DEBUG   | Session closed
+[04-03-2022 09:44:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:44:09] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:44:09] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:44:09] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:44:09] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:44:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:44:09] | test | DEBUG   | Session closed
+[04-03-2022 09:45:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:45:20] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:45:20] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:45:20] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:45:20] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:45:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:45:20] | test | DEBUG   | Session closed
+[04-03-2022 09:46:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:46:25] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:46:25] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:46:25] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:46:25] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:46:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:46:25] | test | DEBUG   | Session closed
+[04-03-2022 09:48:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:48:11] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:48:11] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:48:11] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:48:11] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:48:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:48:11] | test | DEBUG   | Session closed
+[04-03-2022 09:58:51] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:58:51] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 09:58:51] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:58:51] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 09:58:51] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 09:58:51] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 09:58:51] | test | DEBUG   | Session closed
+[04-03-2022 10:06:12] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:06:12] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:06:12] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:06:12] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:06:12] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:06:12] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:06:12] | test | DEBUG   | Session closed
+[04-03-2022 10:08:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:08:08] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:08:08] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:08:08] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:08:08] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:08:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:08:08] | test | DEBUG   | Session closed
+[04-03-2022 10:14:13] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:14:13] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:14:13] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:14:13] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:14:13] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:14:13] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:14:13] | test | DEBUG   | Session closed
+[04-03-2022 10:16:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:16:10] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:16:10] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:16:10] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:16:10] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:16:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:16:10] | test | DEBUG   | Session closed
+[04-03-2022 10:16:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:16:48] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:16:48] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:16:48] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:16:48] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:16:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:16:48] | test | DEBUG   | Session closed
+[04-03-2022 10:20:42] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:20:43] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:20:43] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:20:43] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:20:43] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:20:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:20:43] | test | DEBUG   | Session closed
+[04-03-2022 10:21:33] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:21:33] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:21:33] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:21:33] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:21:33] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:21:33] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:21:33] | test | DEBUG   | Session closed
+[04-03-2022 10:23:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:23:11] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:23:11] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:23:11] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:23:11] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:23:12] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:23:12] | test | DEBUG   | Session closed
+[04-03-2022 10:25:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:25:17] | test | DEBUG   | Commit occured on product_dimensions_repository
+[04-03-2022 10:25:17] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:25:17] | test | DEBUG   | Commit occured on product_description_repository
+[04-03-2022 10:25:17] | test | DEBUG   | Commit occured on product_dimension_repository
+[04-03-2022 10:25:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[04-03-2022 10:25:17] | test | DEBUG   | Session closed
+[05-03-2022 08:33:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:33:59] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:33:59] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:33:59] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:33:59] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:33:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:33:59] | test | DEBUG   | Session closed
+[05-03-2022 08:42:21] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:42:21] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:42:21] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:42:21] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:42:21] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:42:21] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:42:21] | test | DEBUG   | Session closed
+[05-03-2022 08:43:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:43:17] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:43:17] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:43:17] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:43:17] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:43:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:43:17] | test | DEBUG   | Session closed
+[05-03-2022 08:44:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:44:05] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:44:05] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:44:05] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:44:05] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:44:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:44:05] | test | DEBUG   | Session closed
+[05-03-2022 08:44:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:44:49] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:44:49] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:44:49] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:44:49] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:44:49] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:44:49] | test | DEBUG   | Session closed
+[05-03-2022 08:46:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:46:04] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:46:04] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:46:04] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:46:04] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:46:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:46:04] | test | DEBUG   | Session closed
+[05-03-2022 08:47:19] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:47:19] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:47:19] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:47:19] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:47:19] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:47:19] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:47:19] | test | DEBUG   | Session closed
+[05-03-2022 08:48:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:48:04] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:48:04] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:48:04] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:48:04] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:48:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:48:04] | test | DEBUG   | Session closed
+[05-03-2022 08:48:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:48:37] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:48:37] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:48:37] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:48:37] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:48:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:48:37] | test | DEBUG   | Session closed
+[05-03-2022 08:55:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:55:17] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:55:17] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:55:17] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:55:17] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:55:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:55:17] | test | DEBUG   | Session closed
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:57:52] | test | DEBUG   | Session closed
+[05-03-2022 08:59:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:25] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:59:25] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:59:25] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:59:25] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:59:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:25] | test | DEBUG   | Session closed
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 08:59:38] | test | DEBUG   | Session closed
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:09] | test | DEBUG   | Session closed
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:00:39] | test | DEBUG   | Session closed
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:02:11] | test | DEBUG   | Session closed
+[05-03-2022 09:19:51] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:19:51] | test | DEBUG   | Session closed
+[05-03-2022 09:21:13] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:21:13] | test | DEBUG   | Session closed
+[05-03-2022 09:25:15] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:25:15] | test | DEBUG   | Session closed
+[05-03-2022 09:26:31] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:26:31] | test | DEBUG   | Session closed
+[05-03-2022 09:39:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:39:59] | test | DEBUG   | Session closed
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:43:30] | test | DEBUG   | Session closed
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:46:24] | test | DEBUG   | Session closed
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 09:59:34] | test | DEBUG   | Session closed
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 10:01:28] | test | DEBUG   | Session closed
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:49:06] | test | DEBUG   | Session closed
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:55:43] | test | DEBUG   | Session closed
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_category_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_subcategory_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 11:56:58] | test | DEBUG   | Session closed
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_category_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_subcategory_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:01:08] | test | DEBUG   | Session closed
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_category_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_subcategory_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:09:37] | test | DEBUG   | Session closed
+[05-03-2022 12:15:53] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:15:53] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 12:15:53] | test | DEBUG   | Session closed
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_category_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_subcategory_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:17:37] | test | DEBUG   | Session closed
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_category_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_subcategory_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:38:32] | test | DEBUG   | Session closed
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_dimensions_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_category_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_subcategory_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_description_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_dimension_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Commit occured on product_periodicity_repository
+[05-03-2022 12:45:38] | test | DEBUG   | Session closed
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_dimension_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:43:30] | test | DEBUG   | Session closed
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_dimension_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:44:55] | test | DEBUG   | Session closed
+[06-03-2022 17:48:19] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:48:19] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 17:48:19] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:48:19] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 17:48:19] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 17:48:19] | test | DEBUG   | Session closed
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:57:25] | test | DEBUG   | Session closed
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 17:59:10] | test | DEBUG   | Session closed
+[06-03-2022 18:31:23] | test | DEBUG   | Session closed
+[06-03-2022 18:31:50] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:31:50] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:31:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:31:50] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:31:50] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:31:50] | test | DEBUG   | Session closed
+[06-03-2022 18:33:40] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:33:40] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:33:40] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:33:40] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:33:40] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:33:40] | test | DEBUG   | Session closed
+[06-03-2022 18:34:50] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:34:50] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:34:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:34:50] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:34:50] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:34:50] | test | DEBUG   | Session closed
+[06-03-2022 18:37:39] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:37:39] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:37:39] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:37:39] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:37:39] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:37:39] | test | DEBUG   | Session closed
+[06-03-2022 18:38:04] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:38:04] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:38:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:38:04] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:38:04] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:38:04] | test | DEBUG   | Session closed
+[06-03-2022 18:38:43] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:38:43] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:38:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:38:43] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:38:43] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:38:43] | test | DEBUG   | Session closed
+[06-03-2022 18:39:10] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:39:10] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:39:10] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:39:10] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:39:10] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:39:10] | test | DEBUG   | Session closed
+[06-03-2022 18:39:18] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:39:18] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:39:18] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:39:18] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:39:18] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:39:18] | test | DEBUG   | Session closed
+[06-03-2022 18:41:17] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:41:17] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:41:17] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:41:17] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:41:17] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:41:17] | test | DEBUG   | Session closed
+[06-03-2022 18:41:23] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:41:23] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:41:23] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:41:23] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:41:23] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:41:23] | test | DEBUG   | Session closed
+[06-03-2022 18:41:40] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:41:40] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:41:40] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:41:40] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:41:40] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:41:40] | test | DEBUG   | Session closed
+[06-03-2022 18:42:05] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:42:05] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:42:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:42:05] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:42:05] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:42:05] | test | DEBUG   | Session closed
+[06-03-2022 18:49:16] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:49:16] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:49:16] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:49:16] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:49:16] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:49:16] | test | DEBUG   | Session closed
+[06-03-2022 18:49:40] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:49:40] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:49:40] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:49:40] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:49:40] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:49:40] | test | DEBUG   | Session closed
+[06-03-2022 18:50:00] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:50:00] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:50:00] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:50:00] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:50:00] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:50:00] | test | DEBUG   | Session closed
+[06-03-2022 18:50:08] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:50:08] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:50:08] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:50:08] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:50:08] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:50:08] | test | DEBUG   | Session closed
+[06-03-2022 18:52:16] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:52:16] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:52:16] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:52:16] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:52:16] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:52:16] | test | DEBUG   | Session closed
+[06-03-2022 18:52:20] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:52:20] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:52:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:52:20] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:52:20] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:52:20] | test | DEBUG   | Session closed
+[06-03-2022 18:52:54] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:52:54] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:52:54] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:52:54] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:52:54] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:52:54] | test | DEBUG   | Session closed
+[06-03-2022 18:53:11] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:53:12] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:53:12] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:53:12] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:53:12] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:53:12] | test | DEBUG   | Session closed
+[06-03-2022 18:53:32] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 18:53:32] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 18:53:32] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 18:53:32] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 18:53:32] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 18:53:32] | test | DEBUG   | Session closed
+[06-03-2022 19:30:11] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:30:11] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:30:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:30:11] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:30:11] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:30:11] | test | DEBUG   | Session closed
+[06-03-2022 19:30:16] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:30:16] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:30:16] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:30:16] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:30:16] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:30:16] | test | DEBUG   | Session closed
+[06-03-2022 19:33:35] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:33:35] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:33:35] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:33:35] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:33:36] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:33:36] | test | DEBUG   | Session closed
+[06-03-2022 19:33:46] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:33:46] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:33:46] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:33:46] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:33:46] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:33:46] | test | DEBUG   | Session closed
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:34:31] | test | DEBUG   | Session closed
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:46:20] | test | DEBUG   | Session closed
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 19:49:23] | test | DEBUG   | Session closed
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:51:50] | test | DEBUG   | Session closed
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_category_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_subcategory_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_dimensions_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_description_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Commit occured on product_periodicity_repository
+[06-03-2022 20:52:45] | test | DEBUG   | Session closed
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:19:36] | test | DEBUG   | Session closed
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 09:28:59] | test | DEBUG   | Session closed
+[07-03-2022 10:00:42] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:00:43] | test | DEBUG   | Session closed
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:42] | test | DEBUG   | Session closed
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 10:08:47] | test | DEBUG   | Session closed
+[07-03-2022 13:16:04] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 13:16:04] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 13:16:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:04] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 13:16:04] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 13:16:04] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:05] | test | DEBUG   | Session closed
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:16:11] | test | DEBUG   | Session closed
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_category_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_subcategory_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_dimensions_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_description_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Commit occured on product_periodicity_repository
+[07-03-2022 13:26:07] | test | DEBUG   | Session closed
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_category_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_subcategory_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_dimensions_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_description_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:15:26] | test | DEBUG   | Session closed
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_category_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_subcategory_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_dimensions_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_description_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:38:56] | test | DEBUG   | Session closed
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_category_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_subcategory_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_dimensions_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_description_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:43:59] | test | DEBUG   | Session closed
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_category_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_subcategory_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_dimensions_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_description_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Commit occured on product_periodicity_repository
+[09-03-2022 16:46:05] | test | DEBUG   | Session closed
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_category_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_subcategory_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_dimensions_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_description_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:35:43] | test | DEBUG   | Session closed
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_category_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_subcategory_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_dimensions_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_description_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:48] | test | DEBUG   | Session closed
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_category_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_subcategory_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_dimensions_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_description_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:47:52] | test | DEBUG   | Session closed
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_category_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_subcategory_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_dimensions_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_description_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Commit occured on product_periodicity_repository
+[10-03-2022 15:55:54] | test | DEBUG   | Session closed
+[10-03-2022 15:56:56] | test | DEBUG   | Session closed
+[10-03-2022 15:58:42] | test | DEBUG   | Session closed
+[10-03-2022 15:59:09] | test | DEBUG   | Session closed
+[10-03-2022 16:00:08] | test | DEBUG   | Session closed
+[10-03-2022 16:02:41] | test | DEBUG   | Session closed
+[10-03-2022 16:03:33] | test | DEBUG   | Session closed
+[10-03-2022 16:03:57] | test | DEBUG   | Session closed
