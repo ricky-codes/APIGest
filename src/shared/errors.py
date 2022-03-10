@@ -10,3 +10,6 @@ class EmptySetError(Error):
 
 class QueryError(Error):
     pass
+
+class EmptyError(Error):
+    pass

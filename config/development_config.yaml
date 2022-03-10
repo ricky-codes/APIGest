@@ -22,15 +22,20 @@ LOGGER:
       level: DEBUG
       formatter: console_formatter
       stream: ext://sys.stdout
-    file:
+    dev_file:
       class: logging.FileHandler
       level: INFO
-      filename: logs.log
+      filename: dev_logs.log
+      formatter: file_formatter
+    test_file:
+      class: logging.FileHandler
+      level: DEBUG
+      filename: test_logs.log
       formatter: file_formatter
   loggers:
     dev:
-      handlers: [console, file]
+      handlers: [console, dev_file]
     test:
-      handlers: [console]
+      handlers: [console, test_file]
   root:
     level: DEBUG
