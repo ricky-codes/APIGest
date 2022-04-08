@@ -1,6 +1,0 @@
-env
-config
-.log
-.vscode
-.pytest_cache
-.gitignore
