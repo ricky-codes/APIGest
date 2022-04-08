@@ -7,7 +7,7 @@ from sqlalchemy import ForeignKey
 
 from src.core.models.product_dimensions_model import UnityOfMeasure
 
-from src.infrastructure.data import metadata
+from src.infrastructure.orm import metadata
 
 product_dimensions_table = Table(
     'product_dimensions',
@@ -19,6 +19,5 @@ product_dimensions_table = Table(
     Column('level_per_pallet', Integer),
     Column('unity_area', Integer),
     Column('modified_at', DateTime),
-    Column('inserted_at', DateTime),
     Column('created_at', DateTime)
 )

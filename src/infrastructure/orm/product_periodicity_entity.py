@@ -5,7 +5,7 @@ from sqlalchemy import Integer
 from sqlalchemy import String
 from sqlalchemy import ForeignKey
 
-from src.infrastructure.data import metadata
+from src.infrastructure.orm import metadata
 
 product_periodicity_table = Table(
     'product_periodicity',
@@ -14,6 +14,5 @@ product_periodicity_table = Table(
     Column('entry_on_warehouse', Date),
     Column('expire_date', Date),
     Column('modified_at', DateTime),
-    Column('inserted_at', DateTime),
     Column('created_at', DateTime)
 )

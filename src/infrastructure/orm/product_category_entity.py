@@ -5,8 +5,9 @@ from sqlalchemy import Integer
 from sqlalchemy import BigInteger
 from sqlalchemy import String
 from sqlalchemy import ForeignKey
+from sqlalchemy.orm import relationship
 
-from src.infrastructure.data.metadata import metadata_obj
+from src.infrastructure.orm.metadata import metadata_obj
 
 product_category_table = Table(
     'product_category',
@@ -15,6 +16,5 @@ product_category_table = Table(
     Column('description', String(100)),
     Column('iva', Integer),
     Column('modified_at', DateTime),
-    Column('inserted_at', DateTime),
     Column('created_at', DateTime)
 )

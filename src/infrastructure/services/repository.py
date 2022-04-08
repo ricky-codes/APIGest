@@ -53,7 +53,6 @@ class SqlAlchemyRepository(RepositoryAbstract):
 
     def insert(self, new: ModelAbstract) -> int:
         try:
-            new.inserted_at=datetime.now()
             self.session.add(new)
         except Exception as err:
             print(err)

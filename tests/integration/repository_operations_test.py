@@ -4,6 +4,8 @@ import random
 import logging
 import logging.config
 
+from sqlalchemy import inspect
+
 from src.core.interfaces.session_wrapper_abc import SessionWrapperAbstract
 from src.core.models.product_periodicity_model import ProductPeriodicityModel
 from src.core.models.product_dimensions_model import ProductDimensionsModel, UnityOfMeasure
@@ -41,19 +43,6 @@ class TestRepositoryOperations():
         cls.randomdate_2 = date(2010,3,1) + timedelta(random.randint(1,365))
 
 
-        cls.new_product_category = ProductCategoryModel(
-            description="SUMOS",
-            iva=23,
-            created_at=datetime.now()
-        )
-
-        cls.new_product_subcategory = ProductSubcategoryModel(
-            description="NECTARES",
-            product_category=cls.new_product_category,
-            created_at=datetime.now()
-        )
-
-
         cls.new_product_periodicity = ProductPeriodicityModel(
             entry_on_warehouse=cls.randomdate_1, 
             expire_date=cls.randomdate_2, 
@@ -69,25 +58,21 @@ class TestRepositoryOperations():
             created_at=datetime.now()
         )
 
-        cls.new_product_description = ProductDescriptionModel(
-            name='Compal Frutos Vermelhos',
-            product_category=cls.new_product_subcategory.product_category,
-            product_subcategory=cls.new_product_subcategory,
-            internal_code= random.randint(1,10000),
-            ean=random.getrandbits(32),
-            created_at=datetime.now(),
-            product_dimensions=cls.new_product_dimensions,
-            product_periodicity=cls.new_product_periodicity
-        )
 
     @classmethod
     def teardown_class(cls):
         cls.session.close()
         cls.test_logger.debug("Session closed")
 
-
+    @pytest.mark.skip(reason="Not part of aggregate")
     def test_insert_product_category(self):
         '''Testing function to insert product_category'''
+
+        self.new_product_category = ProductCategoryModel(
+            description="FRUTOS",
+            iva=23,
+            created_at=datetime.now()
+        )
 
         self.product_category_repository.insert(self.new_product_category)
         self.session.commit()
@@ -95,38 +80,54 @@ class TestRepositoryOperations():
         self.inserted_product_category = self.session.query(ProductCategoryModel).order_by(ProductCategoryModel.id.desc()).first()
         assert self.new_product_category == self.inserted_product_category
 
-
+    @pytest.mark.skip(reason="Not part of aggregate")
     def test_insert_product_subcategory(self):
         '''Testing function to insert product_category'''
 
-        self.product_subcategory_repository.insert(self.new_product_subcategory)
+        self.product_category: ProductCategoryModel = self.product_category_repository.get_by_filter(ProductCategoryModel.description == 'SUMOS')[0]
+
+        self.child1_product_subcategory = ProductSubcategoryModel(
+            description="GRANEL",
+            product_category=self.product_category,
+            created_at=datetime.now(),
+        )
+        self.child2_product_subcategory = ProductSubcategoryModel(
+            description="CUVETE",
+            product_category=self.product_category,
+            created_at=datetime.now(),
+        )
+
+        self.parent_product_subcategory = ProductSubcategoryModel(
+            description="SECOS",
+            product_category=self.product_category,
+            created_at=datetime.now()
+        )
+
+
+        self.parent_product_subcategory.product_subcategory_parent = [self.child1_product_subcategory, self.child2_product_subcategory]
+
+        self.product_subcategory_repository.insert(self.parent_product_subcategory)
         self.session.commit()
         self.test_logger.debug("Commit occured on product_subcategory_repository")
         self.inserted_product_subcategory = self.session.query(ProductSubcategoryModel).order_by(ProductSubcategoryModel.id.desc()).first()
-        assert self.new_product_subcategory, self.inserted_product_subcategory
+        assert self.child1_product_subcategory, self.inserted_product_subcategory
 
 
-    def test_insert_product_periodicity(self):
-        '''Testing function to insert product_periodicity'''
-
-        self.product_periodicity_repository.insert(self.new_product_periodicity)
-        self.session.commit()
-        self.test_logger.debug("Commit occured on product_periodicity_repository")
-        self.inserted_product_periodicity = self.session.query(ProductPeriodicityModel).order_by(ProductPeriodicityModel.id.desc()).first()
-        assert self.new_product_periodicity, self.inserted_product_periodicity
-
-    def test_insert_product_dimensions(self):
-        '''Testing function to insert product_dimensions'''
-
-        self.product_dimensions_repository.insert(self.new_product_dimensions)
-        self.session.commit()
-        self.test_logger.debug("Commit occured on product_dimensions_repository")
-        self.inserted_product_dimensions = self.session.query(ProductDimensionsModel).order_by(ProductDimensionsModel.id.desc()).first()
-        assert self.new_product_dimensions, self.inserted_product_dimensions
-
-
+    @pytest.mark.skip(reason="Not part of aggregate")
     def test_insert_product_description(self):
         '''Testing function to insert product_description'''
+
+        self.product_subcategory = self.product_subcategory_repository.get_by_filter(ProductSubcategoryModel.description == "NECTARES")[0]
+
+        self.new_product_description = ProductDescriptionModel(
+            name='Compal Frutos Vermelhos',
+            internal_code=random.randint(1,10000),
+            ean=random.getrandbits(32),
+            created_at=datetime.now(),
+            product_dimensions=self.new_product_dimensions,
+            product_periodicity=self.new_product_periodicity,
+            product_subcategory=self.product_subcategory
+        )
 
         self.product_description_repository.insert(self.new_product_description)
         self.session.commit()
@@ -134,30 +135,47 @@ class TestRepositoryOperations():
         self.inserted_new_product_description = self.session.query(ProductDescriptionModel).order_by(ProductDescriptionModel.id.desc()).first()
         assert self.new_product_description, self.inserted_new_product_description
 
-
-
-
-
+    @pytest.mark.skip(reason="Not part of aggregate")
     def test_delete_product_description_by_filter(self):
         '''Testing function to delete product_description'''
 
-        result = self.product_description_repository.delete_by_filter(ProductDescriptionModel.id > 1)
+        result = self.product_description_repository.delete_by_filter(ProductDescriptionModel.id == 1)
         assert type(result) is int
         self.session.commit()
         self.test_logger.debug("Commit occured on product_periodicity_repository")
 
+    @pytest.mark.skip(reason="Not part of aggregate")
     def test_delete_product_dimensions_by_filter(self):
-        '''Testing function to delete product_description'''
+        '''Testing function to delete product_dimensions'''
 
         result = self.product_dimensions_repository.delete_by_filter(ProductDimensionsModel.id > 1)
         assert type(result) is int
         self.session.commit()
         self.test_logger.debug("Commit occured on product_periodicity_repository")
 
+    @pytest.mark.skip(reason="Not part of aggregate")
     def test_delete_product_periodicity_by_filter(self):
-        '''Testing function to delete product_description'''
+        '''Testing function to delete product_periodicity'''
 
         result = self.product_periodicity_repository.delete_by_filter(ProductPeriodicityModel.id > 1)
         assert type(result) is int
         self.session.commit()
         self.test_logger.debug("Commit occured on product_periodicity_repository")
+
+    @pytest.mark.skip(reason="Not part of aggregate")
+    def test_delete_product_category_by_filter(self):
+        '''Testing function to delete product_category'''
+
+        result = self.product_category_repository.delete_by_filter(ProductCategoryModel.id == 1)
+        assert type(result) is int
+        self.session.commit()
+        self.test_logger.debug("Commit occured on product_category_repository")
+
+    @pytest.mark.skip(reason="Not part of aggregate")
+    def test_delete_product_subcategory_by_filter(self):
+        '''Testing function to delete product_category'''
+
+        result = self.product_subcategory_repository.delete_by_filter(ProductSubcategoryModel.id == 13)
+        assert type(result) is int
+        self.session.commit()
+        self.test_logger.debug("Commit occured on product_subcategory_repository")

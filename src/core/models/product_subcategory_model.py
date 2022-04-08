@@ -1,9 +1,10 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
-from src.core.models import product_category_model
+from src.core.models.product_category_model import ProductCategoryModel
 from src.core.interfaces.model_abc import ModelAbstract
 
 @dataclass
 class ProductSubcategoryModel(ModelAbstract):
     description: str
-    product_category: product_category_model.ProductCategoryModel
+    product_category: ProductCategoryModel
+    product_subcategory_parent: 'ProductSubcategoryModel' = field(init=False)
