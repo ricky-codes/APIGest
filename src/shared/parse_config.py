@@ -53,3 +53,7 @@ def get_mysql_connection_uri():
 def get_logger_config():
     configuration = __load_config()
     return configuration['LOGGER']
+
+def get_flask_config():
+    configuration = __load_config()
+    return configuration['FLASKAPI']

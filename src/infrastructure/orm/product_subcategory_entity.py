@@ -16,5 +16,5 @@ product_subcategory_table = Table(
     Column('modified_at', DateTime),
     Column('created_at', DateTime),
     Column('product_category_id', Integer, ForeignKey('product_category.id', ondelete='cascade')),
-    Column('product_subcategory_id', Integer, ForeignKey('product_subcategory.id', ondelete='cascade'))
+    Column('product_subcategory_parent_id', Integer, ForeignKey('product_subcategory.id', ondelete='cascade'))
 )

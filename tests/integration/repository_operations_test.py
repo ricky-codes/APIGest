@@ -1,10 +1,10 @@
+import dataclasses
 import pytest
 from datetime import datetime, timedelta, date
 import random
 import logging
 import logging.config
-
-from sqlalchemy import inspect
+import json
 
 from src.core.interfaces.session_wrapper_abc import SessionWrapperAbstract
 from src.core.models.product_periodicity_model import ProductPeriodicityModel
@@ -64,6 +64,19 @@ class TestRepositoryOperations():
         cls.session.close()
         cls.test_logger.debug("Session closed")
 
+
+    @pytest.mark.skip()
+    def test_get_product_category(self):
+        self.inserted_product_category = self.session.query(ProductCategoryModel).order_by(ProductCategoryModel.id.desc()).first()
+        print(self.inserted_product_category)
+
+    #@pytest.mark.skip()
+    def test_get_product_subcategory(self):
+        self.inserted_product_subcategory = self.session.query(ProductSubcategoryModel).where(ProductSubcategoryModel.description == "CUVETE").first()
+        print(json.dumps(dataclasses.asdict(self.inserted_product_subcategory), default=str, sort_keys=True, indent=4))
+
+
+
     @pytest.mark.skip(reason="Not part of aggregate")
     def test_insert_product_category(self):
         '''Testing function to insert product_category'''
@@ -84,29 +97,30 @@ class TestRepositoryOperations():
     def test_insert_product_subcategory(self):
         '''Testing function to insert product_category'''
 
-        self.product_category: ProductCategoryModel = self.product_category_repository.get_by_filter(ProductCategoryModel.description == 'SUMOS')[0]
+        self.target_product_category: ProductCategoryModel = self.product_category_repository.get_by_filter(ProductCategoryModel.description == 'FRUTOS')[0]
 
         self.child1_product_subcategory = ProductSubcategoryModel(
             description="GRANEL",
-            product_category=self.product_category,
             created_at=datetime.now(),
         )
         self.child2_product_subcategory = ProductSubcategoryModel(
             description="CUVETE",
-            product_category=self.product_category,
             created_at=datetime.now(),
         )
-
         self.parent_product_subcategory = ProductSubcategoryModel(
             description="SECOS",
-            product_category=self.product_category,
             created_at=datetime.now()
         )
 
+        self.parent_product_subcategory.product_category = self.target_product_category
 
-        self.parent_product_subcategory.product_subcategory_parent = [self.child1_product_subcategory, self.child2_product_subcategory]
+        self.child1_product_subcategory.product_subcategory_parent = self.parent_product_subcategory
+        self.child2_product_subcategory.product_subcategory_parent = self.parent_product_subcategory
+
 
         self.product_subcategory_repository.insert(self.parent_product_subcategory)
+        self.product_subcategory_repository.insert(self.child1_product_subcategory)
+        self.product_subcategory_repository.insert(self.child2_product_subcategory)
         self.session.commit()
         self.test_logger.debug("Commit occured on product_subcategory_repository")
         self.inserted_product_subcategory = self.session.query(ProductSubcategoryModel).order_by(ProductSubcategoryModel.id.desc()).first()
@@ -117,10 +131,12 @@ class TestRepositoryOperations():
     def test_insert_product_description(self):
         '''Testing function to insert product_description'''
 
-        self.product_subcategory = self.product_subcategory_repository.get_by_filter(ProductSubcategoryModel.description == "NECTARES")[0]
+        self.product_subcategory = self.product_subcategory_repository.get_by_filter(ProductSubcategoryModel.description == "CUVETE")[0]
+
+        print("\n\n", self.product_subcategory)
 
         self.new_product_description = ProductDescriptionModel(
-            name='Compal Frutos Vermelhos',
+            name='Amendoins',
             internal_code=random.randint(1,10000),
             ean=random.getrandbits(32),
             created_at=datetime.now(),

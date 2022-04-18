@@ -1529,3 +1529,118 @@
 [06-04-2022 17:59:12] | test | DEBUG   | Session closed
 [08-04-2022 15:12:54] | test | DEBUG   | Commit occured on product_subcategory_repository
 [08-04-2022 15:12:54] | test | DEBUG   | Session closed
+[11-04-2022 10:08:24] | test | DEBUG   | Session closed
+[11-04-2022 10:09:18] | test | DEBUG   | Session closed
+[11-04-2022 10:10:00] | test | DEBUG   | Commit occured on product_category_repository
+[11-04-2022 10:10:00] | test | DEBUG   | Session closed
+[11-04-2022 12:37:35] | test | DEBUG   | Commit occured on product_category_repository
+[11-04-2022 12:37:35] | test | DEBUG   | Session closed
+[11-04-2022 12:37:40] | test | DEBUG   | Commit occured on product_category_repository
+[11-04-2022 12:37:40] | test | DEBUG   | Session closed
+[11-04-2022 12:38:00] | test | DEBUG   | Session closed
+[11-04-2022 12:38:41] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:38:41] | test | DEBUG   | Session closed
+[11-04-2022 12:41:56] | test | DEBUG   | Session closed
+[11-04-2022 12:42:10] | test | DEBUG   | Session closed
+[11-04-2022 12:42:43] | test | DEBUG   | Session closed
+[11-04-2022 12:46:25] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:46:25] | test | DEBUG   | Session closed
+[11-04-2022 12:47:05] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:47:05] | test | DEBUG   | Session closed
+[11-04-2022 12:48:12] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:48:12] | test | DEBUG   | Session closed
+[11-04-2022 12:52:12] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:52:12] | test | DEBUG   | Session closed
+[11-04-2022 12:55:36] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:55:36] | test | DEBUG   | Session closed
+[11-04-2022 12:56:07] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:56:07] | test | DEBUG   | Session closed
+[11-04-2022 12:56:40] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:56:40] | test | DEBUG   | Session closed
+[11-04-2022 12:57:36] | test | DEBUG   | Commit occured on product_description_repository
+[11-04-2022 12:57:36] | test | DEBUG   | Session closed
+[11-04-2022 12:59:49] | test | DEBUG   | Session closed
+[11-04-2022 13:02:38] | test | DEBUG   | Session closed
+[11-04-2022 13:02:57] | test | DEBUG   | Session closed
+[11-04-2022 13:03:20] | test | DEBUG   | Session closed
+[11-04-2022 13:04:00] | test | DEBUG   | Session closed
+[12-04-2022 16:14:17] | test | DEBUG   | Session closed
+[12-04-2022 16:15:07] | test | DEBUG   | Session closed
+[12-04-2022 16:16:04] | test | DEBUG   | Session closed
+[12-04-2022 16:16:20] | test | DEBUG   | Commit occured on product_category_repository
+[12-04-2022 16:16:20] | test | DEBUG   | Session closed
+[12-04-2022 16:16:34] | test | DEBUG   | Session closed
+[12-04-2022 16:17:04] | test | DEBUG   | Commit occured on product_subcategory_repository
+[12-04-2022 16:17:04] | test | DEBUG   | Session closed
+[12-04-2022 16:18:12] | test | DEBUG   | Session closed
+[12-04-2022 16:19:09] | test | DEBUG   | Session closed
+[12-04-2022 16:20:02] | test | DEBUG   | Session closed
+[12-04-2022 16:20:48] | test | DEBUG   | Session closed
+[12-04-2022 16:21:07] | test | DEBUG   | Commit occured on product_description_repository
+[12-04-2022 16:21:07] | test | DEBUG   | Session closed
+[12-04-2022 16:22:50] | test | DEBUG   | Session closed
+[12-04-2022 16:23:12] | test | DEBUG   | Session closed
+[12-04-2022 16:23:20] | test | DEBUG   | Commit occured on product_description_repository
+[12-04-2022 16:23:20] | test | DEBUG   | Session closed
+[12-04-2022 16:24:18] | test | DEBUG   | Commit occured on product_description_repository
+[12-04-2022 16:24:18] | test | DEBUG   | Session closed
+[12-04-2022 16:39:26] | test | DEBUG   | Session closed
+[12-04-2022 16:39:53] | test | DEBUG   | Commit occured on product_subcategory_repository
+[12-04-2022 16:39:53] | test | DEBUG   | Session closed
+[14-04-2022 16:35:27] | test | DEBUG   | Session closed
+[14-04-2022 16:35:43] | test | DEBUG   | Commit occured on product_category_repository
+[14-04-2022 16:35:43] | test | DEBUG   | Session closed
+[14-04-2022 16:35:53] | test | DEBUG   | Session closed
+[14-04-2022 16:43:12] | test | DEBUG   | Session closed
+[14-04-2022 16:45:34] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 16:45:34] | test | DEBUG   | Session closed
+[14-04-2022 16:48:29] | test | DEBUG   | Commit occured on product_category_repository
+[14-04-2022 16:48:29] | test | DEBUG   | Session closed
+[14-04-2022 16:49:00] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 16:49:00] | test | DEBUG   | Session closed
+[14-04-2022 16:51:58] | test | DEBUG   | Commit occured on product_category_repository
+[14-04-2022 16:51:58] | test | DEBUG   | Session closed
+[14-04-2022 16:52:05] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 16:52:05] | test | DEBUG   | Session closed
+[14-04-2022 16:52:51] | test | DEBUG   | Session closed
+[14-04-2022 17:23:53] | test | DEBUG   | Session closed
+[14-04-2022 17:24:46] | test | DEBUG   | Session closed
+[14-04-2022 17:25:18] | test | DEBUG   | Session closed
+[14-04-2022 17:25:36] | test | DEBUG   | Session closed
+[14-04-2022 17:26:54] | test | DEBUG   | Commit occured on product_category_repository
+[14-04-2022 17:26:54] | test | DEBUG   | Session closed
+[14-04-2022 17:27:09] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 17:27:09] | test | DEBUG   | Session closed
+[14-04-2022 17:29:09] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 17:29:09] | test | DEBUG   | Session closed
+[14-04-2022 17:30:11] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 17:30:11] | test | DEBUG   | Session closed
+[14-04-2022 17:30:51] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 17:30:51] | test | DEBUG   | Session closed
+[14-04-2022 17:31:22] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 17:31:22] | test | DEBUG   | Session closed
+[14-04-2022 18:46:33] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:46:33] | test | DEBUG   | Session closed
+[14-04-2022 18:46:47] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:46:47] | test | DEBUG   | Session closed
+[14-04-2022 18:48:32] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:48:32] | test | DEBUG   | Session closed
+[14-04-2022 18:49:56] | test | DEBUG   | Session closed
+[14-04-2022 18:50:28] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:50:28] | test | DEBUG   | Session closed
+[14-04-2022 18:52:00] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:52:00] | test | DEBUG   | Session closed
+[14-04-2022 18:52:51] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:52:51] | test | DEBUG   | Session closed
+[14-04-2022 18:53:17] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:53:17] | test | DEBUG   | Session closed
+[14-04-2022 18:53:55] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:53:55] | test | DEBUG   | Session closed
+[14-04-2022 18:54:03] | test | DEBUG   | Commit occured on product_subcategory_repository
+[14-04-2022 18:54:03] | test | DEBUG   | Session closed
+[14-04-2022 18:56:43] | test | DEBUG   | Session closed
+[14-04-2022 18:58:18] | test | DEBUG   | Session closed
+[14-04-2022 18:59:07] | test | DEBUG   | Session closed
+[14-04-2022 18:59:47] | test | DEBUG   | Session closed
+[14-04-2022 19:00:23] | test | DEBUG   | Session closed
+[14-04-2022 19:01:34] | test | DEBUG   | Session closed

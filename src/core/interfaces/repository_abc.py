@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractproperty
 from abc import abstractmethod
 from typing import List
 

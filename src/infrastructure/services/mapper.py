@@ -43,8 +43,9 @@ class Mapper():
             'product_subcategory': relationship(ProductSubcategoryModel)
         })
         registry().map_imperatively(ProductCategoryModel, product_category_table, properties={
-            'product_subcategories': relationship(ProductSubcategoryModel, backref='product_category')
+            'product_subcategories': relationship(ProductSubcategoryModel, back_populates="product_category")
         })
         registry().map_imperatively(ProductSubcategoryModel, product_subcategory_table, properties={
-            'product_subcategory_parent': relationship(ProductSubcategoryModel)
+            'product_category': relationship(ProductCategoryModel, back_populates="product_subcategories"),
+            'product_subcategory_parent': relationship(ProductSubcategoryModel, remote_side="ProductSubcategoryModel.id")
         })
