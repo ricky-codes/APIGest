@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, date
 import random
 import logging
 import logging.config
+from sqlalchemy import inspect
 
 from src.core.interfaces.session_wrapper_abc import SessionWrapperAbstract
 from src.core.interfaces.unit_of_work_abc import UnitOfWorkAbstract
@@ -29,8 +30,6 @@ class TestUnitOfWork():
 
         cls.session_wrapper: SessionWrapperAbstract = SqlSession()
         cls.session_factory = cls.session_wrapper.get_session()
-
-
 
         cls.randomdate_1 = date(2000,3,10) + timedelta(random.randint(1,365))
         cls.randomdate_2 = date(2010,3,1) + timedelta(random.randint(1,365))

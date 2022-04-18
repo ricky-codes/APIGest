@@ -12,7 +12,8 @@ class SqlAlchemyRepository(RepositoryAbstract):
 
     def __init__(self, session, object_type) -> None:
         self.session: Session = session
-        self.object_type = object_type
+        self.object_type: ModelAbstract = object_type
+
 
     def get_by_filter(self, filter) -> List[ModelAbstract]:
         try:
@@ -24,6 +25,7 @@ class SqlAlchemyRepository(RepositoryAbstract):
             print(err)
 
     def get_by_id(self, target_id: int) -> ModelAbstract:
+        print(target_id)
         try:
             result = self.session.query(self.object_type).get(target_id)
             if not result:
@@ -53,7 +55,6 @@ class SqlAlchemyRepository(RepositoryAbstract):
 
     def insert(self, new: ModelAbstract) -> int:
         try:
-            new.inserted_at=datetime.now()
             self.session.add(new)
         except Exception as err:
             print(err)

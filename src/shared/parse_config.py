@@ -40,10 +40,11 @@ def get_connection_config():
 
 def get_mysql_connection_uri():
     configuration = get_connection_config()
-    mysql_connection_uri = "mysql+mysqlconnector://{0}:{1}@{2}/{3}?charset=utf8mb4".format(
+    mysql_connection_uri = "mysql+mysqlconnector://{0}:{1}@{2}:{3}/{4}?charset=utf8mb4".format(
         configuration['USER'],
         configuration['PASSWORD'],
         configuration['HOST'],
+        configuration['PORT'],
         configuration['DATABASE']
     )
     return mysql_connection_uri
@@ -52,3 +53,7 @@ def get_mysql_connection_uri():
 def get_logger_config():
     configuration = __load_config()
     return configuration['LOGGER']
+
+def get_flask_config():
+    configuration = __load_config()
+    return configuration['FLASKAPI']

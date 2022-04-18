@@ -5,7 +5,7 @@ import logging.config
 
 from src.core.interfaces.session_wrapper_abc import SessionWrapperAbstract
 
-from src.infrastructure.data.metadata import metadata_obj
+from src.infrastructure.orm.metadata import metadata_obj
 from src.infrastructure.services.mapper import Mapper
 
 from src.shared import parse_config

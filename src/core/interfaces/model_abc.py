@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from dataclasses import field
 from datetime import datetime
+from datetime import date
+import uuid
 
 
 @dataclass()
@@ -13,7 +15,6 @@ class ModelAbstract:
         inserted_at - saves the current date when inserting an object
         created_at - saves the current date when creating an object
     '''
-    id: int = field(init=False)
-    modified_at: datetime = field(init=False)
-    inserted_at: datetime = field(init=False)
-    created_at: datetime = field()
+    id: int = field(init=False, default=uuid.uuid4())
+    modified_at: datetime = field(init=False, default=datetime.now())
+    created_at: datetime

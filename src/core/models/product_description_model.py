@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from src.core.interfaces.model_abc import ModelAbstract
 
@@ -10,7 +10,6 @@ from src.core.models import product_subcategory_model
 @dataclass
 class ProductDescriptionModel(ModelAbstract):
     name: str
-    product_category: product_category_model.ProductCategoryModel
     product_subcategory: product_subcategory_model.ProductSubcategoryModel
     internal_code: int
     ean: int
