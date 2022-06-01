@@ -8,10 +8,13 @@ def validation_to_json(success, message):
 
 
 def dataclass_to_json(input_object):
-    if type(input_object) is list:
-        dict_result = [dataclasses.asdict(input_dataclass) for input_dataclass in input_object]
-    else:
-        dict_result = dataclasses.asdict(input_object)
+    dict_result = dataclasses.asdict(input_object)
+    dumped_result = json.dumps(dict_result, sort_keys=True, indent=4, default=str)
+    loaded_result = json.loads(dumped_result)
+    return loaded_result
+
+def dataclass_list_to_json(input_list):
+    dict_result = [dataclasses.asdict(input_dataclass) for input_dataclass in input_list]
     dumped_result = json.dumps(dict_result, sort_keys=True, indent=4, default=str)
     loaded_result = json.loads(dumped_result)
     return loaded_result

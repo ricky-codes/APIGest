@@ -10,6 +10,8 @@ from src.core.models.product_periodicity_model import ProductPeriodicityModel
 from src.infrastructure.services.repository import SqlAlchemyRepository
 from src.infrastructure.services.session_wrapper import SessionWrapperAbstract
 
+from src.infrastructure.api.errors import service_errors
+
 class ProductServices():
 
     def __init__(self, session):
@@ -24,31 +26,47 @@ class ProductServices():
         self.product_dimensions_repository: SqlAlchemyRepository = SqlAlchemyRepository(session=self.session, object_type=ProductDimensionsModel)
         self.product_periodicity_repository: SqlAlchemyRepository = SqlAlchemyRepository(session=self.session, object_type=ProductPeriodicityModel)
 
-    def add_product_description(self, name, internal_code, ean, product_subcategory, product_dimensions, product_periodicity):
-        new_product_description = ProductDescriptionModel(
-            name=name,
-            internal_code=internal_code,
-            ean=ean,
-            product_subcategory=product_subcategory,
-            product_dimensions=product_dimensions,
-            product_periodicity=product_periodicity,
+    def add_product_subcategory(self, description, product_category=None, product_subcategory_parent=None):
+        new_product_subcategory = ProductSubcategoryModel(
+            description=str(description).upper(),
             created_at=datetime.now()
         )
 
-        try:
-            self.product_description_repository.insert(new_product_description)
-            self.session.commit()
-        except:
-            return "Error while insert"
+        new_product_subcategory.product_category = product_category
+        if product_subcategory_parent != None:
+            new_product_subcategory.product_subcategory_parent = self.get_product_subcategory_by_id(product_subcategory_parent)
 
-    def get_product_subcategory_by_name(self, description):
-        result = self.product_subcategory_repository.get_by_filter(ProductSubcategoryModel.description == description)
-        return result
+        result = self.product_subcategory_repository.insert(new_product_subcategory)
+
+        if result == None:
+            raise service_errors.InsertError
+        else:
+            return result
 
     def get_all_product_subcategories(self):
-        result = self.product_subcategory_repository.get_by_filter(ProductSubcategoryModel.id > 0)
-        return result
+        result = self.product_subcategory_repository.get_all()
+        if result == None:
+            raise service_errors.SelectError
+        else:
+            return result
 
     def get_product_subcategory_by_id(self, id):
         result = self.product_subcategory_repository.get_by_id(id)
-        return result
+        if result == None:
+            raise service_errors.SelectError
+        else:
+            return result
+
+    def delete_product_subcategory_by_id(self, id):
+        result = self.product_subcategory_repository.delete_by_id(id)
+        if result == 0:
+            raise service_errors.DeleteError
+        else:
+            return result
+
+    def update_product_subcategory(self, requested_object, values_list):
+        result = self.product_subcategory_repository.update(requested_object=requested_object, values_to_update=values_list)
+        if result == None:
+            raise service_errors.UpdateError
+        else:
+            return result

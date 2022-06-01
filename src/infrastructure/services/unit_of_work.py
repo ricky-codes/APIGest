@@ -7,7 +7,6 @@ from src.core.models.product_description_model import ProductDescriptionModel
 from src.core.models.product_dimensions_model import ProductDimensionsModel
 from src.core.models.product_periodicity_model import ProductPeriodicityModel
 
-from src.infrastructure.data.metadata import metadata_obj
 from src.infrastructure.services.repository import SqlAlchemyRepository
 
 from src.shared import parse_config
