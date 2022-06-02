@@ -158,3 +158,33 @@
 [30-05-2022 19:53:50] | dev | INFO    | get_by_id Request
 [30-05-2022 19:54:33] | dev | INFO    | get_by_id Request
 [30-05-2022 19:56:40] | dev | INFO    | get_by_id Request
+[02-06-2022 19:14:01] | dev | INFO    | get_by_id Request
+[02-06-2022 19:14:06] | dev | INFO    | get_by_id Request
+[02-06-2022 19:14:17] | dev | INFO    | get_by_id Request
+[02-06-2022 19:14:20] | dev | INFO    | get_by_id Request
+[02-06-2022 19:23:18] | dev | INFO    | get_by_id Request
+[02-06-2022 19:24:26] | dev | INFO    | get_by_id Request
+[02-06-2022 19:25:08] | dev | INFO    | get_by_id Request
+[02-06-2022 19:25:26] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:25:33] | dev | INFO    | get_by_id Request
+[02-06-2022 19:27:09] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:28:33] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:29:17] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:29:39] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:30:53] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:32:48] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:32:48] | dev | ERROR   | 
+[02-06-2022 19:33:51] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:33:51] | dev | ERROR   | Error in Delete operation
+[02-06-2022 19:35:47] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:35:47] | dev | ERROR   | Error in delete_product_subcategory_by_id operation.
+[02-06-2022 19:38:18] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:38:18] | dev | ERROR   | Error in delete operation
+[02-06-2022 19:41:36] | dev | INFO    | delete_by_id Request
+[02-06-2022 19:41:36] | dev | ERROR   | Error in delete_product_subcategory_by_id
+[02-06-2022 19:41:39] | dev | INFO    | get_by_id Request
+[02-06-2022 19:41:39] | dev | ERROR   | Error in get_product_subcategory_by_id.
+[02-06-2022 19:41:41] | dev | INFO    | get_by_id Request
+[02-06-2022 19:49:35] | dev | INFO    | get_all Request
+[02-06-2022 19:49:43] | dev | INFO    | get_by_id Request
+[02-06-2022 19:49:43] | dev | ERROR   | Error in get_product_subcategory_by_id.

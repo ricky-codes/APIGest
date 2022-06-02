@@ -3,6 +3,7 @@ from flask_restful import Api
 #----------------------------
 from src.shared import parse_config
 from src.infrastructure.api.blueprints.admin_blueprint import main_blueprint
+from src.infrastructure.api.blueprints.errors_blueprint import errors
 from src.infrastructure.api.resources.main_home_resource import Main_Home
 from src.infrastructure.api.resources.product_subcategory_resource import Product_Subcategory_Resource
 from src.infrastructure.api.resources.product_subcategories_resource import Product_Subcategories_Resource
@@ -25,6 +26,7 @@ app.config["FLASK_ENV"] = configuration['DEVELOPMENT']['ENVIRONMENT']
 app.config["SECRET_KEY"] = configuration['DEVELOPMENT']['SECRET_KEY']
 app.config["DEBUG"] = configuration['DEVELOPMENT']['DEBUG']
 
+app.register_blueprint(errors)
 app.register_blueprint(main_blueprint)
 
 if __name__ == "__main__":
